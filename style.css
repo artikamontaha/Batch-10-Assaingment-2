@@ -20,8 +20,8 @@ header{
     font-family: "Great Vibes", cursive;}
 
 .navber{
-    padding-right: 15px;
-    padding-left: 15px;
+    width: 80%;
+    margin: 0;
 }
 
 .ul>li>a{
@@ -52,7 +52,7 @@ li a{
     color: white;
     font-size: 25px;
     font-weight: bold;
-    margin-right: 70px;
+    margin-right: 20px;
     text-decoration: none;
 }
 
@@ -63,10 +63,18 @@ li a{
     border-radius: 40px;
 }
 
-.hr{
-    height: 7%;
-    width: 90%;
+.all-link{
+    width: 92px;
+    height: 38px;
+    background-color:  rgb(230, 83, 60);
+    border: 2px solid rgb(230, 83, 60);
+    border-radius: 30px;
 }
+
+
+
+
+
 
 .div-1{
     height: 750px;
@@ -79,15 +87,6 @@ li a{
     bottom: 63%;
 }
 
-.box-1{
-    width: 100px;
-    height: 100px;
-    background-color: blue;
-    position: relative;
-    bottom: 0;
-    left: 60%;
-    transform: translateX(10%);
-}
 
 .h1-1{
     font-size: 100px;
@@ -127,6 +126,69 @@ li a{
     color: white;
     margin-left: 10px;
     background-color: transparent;
+}
+
+.box-1{
+    padding: 10px 21px 20px 21px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    background-color: rgba(225, 225, 225, 0.1);
+    margin-left: 70%;
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    bottom: 60%;
+    color: white;
+}
+
+.box-1 h1{
+    margin-top: 7%;
+}
+
+.box-2{
+    padding: 10px 21px 20px 21px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(225, 225, 225, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    background-color: rgba(225, 225, 225, 0.1);
+    margin-left: 50%;
+    width: 250px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    bottom: 30%;
+    color: white;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    margin-top: 10%;
+    background-color: orangered;
+}
+
+.box-2 h1{
+    margin-left: 30%;
+    position: absolute;
+    bottom: 0;
+    bottom: 50%;
+    font-size: 40px;
+}
+
+.box-2 h3{
+    margin-left: 30%;
+    position: absolute;
+    bottom: 0;
+    bottom: 20%;
+    font-size: 20px;
+
 }
 
 
@@ -592,7 +654,7 @@ li a{
     margin-top: 1%;
 }
 
-@media screen and (max-width: 576px) {
+/* @media screen and (max-width: 576px) {
     .div-1{
         flex-direction: column;
     }
@@ -600,6 +662,6 @@ li a{
     .nav{
         padding: 10px;
     }
-}
+} */
 
 
