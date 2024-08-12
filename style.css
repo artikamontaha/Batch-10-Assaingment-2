@@ -362,6 +362,7 @@ li a{
     margin-left: 5%;
     font-size: 80px;
     padding-top: 3%;
+    width: 500px;
 }
 
 .p-5{
@@ -369,6 +370,7 @@ li a{
     margin-left: 5%;
     margin-top: 3%;
     font-size: 20px;
+    width: 600px;
 }
 
 .run{
@@ -379,7 +381,6 @@ li a{
     position: relative;
     bottom: 0;
     bottom: 79%;
-
 }
 
 .btn-3{
@@ -619,7 +620,8 @@ li a{
     border: 1px solid rgba(25, 23, 23, 0.474);
     width: 1900px;
     height: 640px;
-    background-color: rgba(67, 67, 67, 0.556);
+    /* background-color: rgba(0, 0, 0, 0.687); */
+    background-color: #1A1A1A;
     display: flex;
 }
 
@@ -740,17 +742,19 @@ li a{
     }
 
     .main{
-        width: 547px;
+        width: 1047px;
+        height: 6500px;
     }
 
     .BMI{
         width: 550px;
-        height: 1200px;
+        height: 1100px;
     }
 
     .input-1{
         width: 230px;
         height: 55px;    
+        margin-left: 2%;
     }
 
     .input-2{
@@ -758,49 +762,183 @@ li a{
     }
 
     .input-3{
-        width: 220px;
         height: 55px;   
         margin-left: 2%; 
+        width: 300px;
+    }
+
+    .select-1{
+        margin-left: 2%;
+        width: 630px;
+    }
+
+    .btn-4{
+        margin-left: 2%;
+    }
+
+    .h1-8{
+        margin-left: 4%;
+        font-size: 50px;
+    }
+
+    .p-8{
+        margin-left: 4%;
+        width: 550px;
+    }
+
+    .p-5{
+        width: 300px;
+        margin-left: 10%;
+    }
+
+    .photo-line{
+        display: grid;
+        margin-left: 2%;
+        width: 510px;
+        height: 2650px;
+    }
+
+    .img-6{
+        margin-top: 5%;
+        margin-left: 7%;
+    }
+
+    .img-7{
+        margin-left: 7%;
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+    }
+
+    .img-8{
+        margin-left: 7%;
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+    }
+
+    .img-9{
+        margin-left: 7%;
+        position: relative;
+        top: 0;
+        margin-top: 10px;
     }
 
 
-    .h1-5{
+
+
+    .btn-2{
+        position: relative;
+        bottom: 0;
+        bottom: -10%;
         margin-left: 0;
+        margin-bottom: 5%;
+    }
+
+
+
+
+
+
+
+    .img-10{
+        margin-left: 7%;
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+    }
+
+    .img-11{
+        margin-left: 7%;
+        position: relative;
+        top: 0;
+        margin-top: 10px;
+    }
+
+
+
+
+    .h1-5{
+        margin-left: 5%;
         font-size: 50px;
     }
 
     .p-6{
-        margin-left: 0;
+        margin-left: 5%;
         width: 550px;
     }
 
     .h1-6{
-        margin-left: 0;
+        margin-left: 5%;
         font-size: 50px;
     }
 
     .table{
-        margin-left: 2%;
+        margin-left: 5%;
     }
 
     .form{
         height: 550px;
         margin-top: 185%;
-        margin-left: 0;
+        margin-left: 5%;
     }
+
+
+
+
+
 
     .footer{
         flex-direction: column;
+        height: 1000px;
+        gap: -14rem
     }
+
+
+
+
+
+    .service{
+        margin-left: 6%;
+        position: relative;
+        bottom: 0;
+        bottom: 10%;
+    }
+
+
+
+
+
+
+
+    .Get-Started{
+        margin-left: 6%;
+        position: relative;
+        bottom: 0;
+        bottom: 75%;
+        margin: 5;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
     .habit-write h1{
         font-size: 35px;
-        margin-left: 1px;
+        margin-left: 10%;
     }
 
     .habit-write p{
         width: 490px;
-        margin-left: 0;
+        margin-left: 6%;
         }
 
     .img-content{
@@ -809,6 +947,10 @@ li a{
 
     .img-content h1{
         margin-left: 14%;
+    }
+
+    .p-7{
+        width: 500px;
     }
 
     .img-content p{
@@ -835,7 +977,7 @@ li a{
     .Run{
         margin-left: 2%;
         width: 500px;
-        height: 800px;
+        height: 700px;
     }
 
     .run{
@@ -850,8 +992,14 @@ li a{
         width: 400px;
     }
 
+    .btn-3{
+        width: 390px;
+        margin-left: 10%;
+    }
+
     .Run h1{
-        font-size: 40px;
+        font-size: 30px;
+        margin-left: 10%;
     }
 
     .Run button{
