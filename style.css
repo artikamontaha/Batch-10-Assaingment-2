@@ -679,9 +679,114 @@ li a{
     /* start @media query */
 
 @media screen and (max-width: 576px) {
+
+    header{
+        height: 1200px;
+        width: 557px;
+    }
+
+
+    .div-1 h1{
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .box-1{
+        position: absolute;
+        width: 250px;
+        bottom: 0;
+        bottom: -2%;
+        margin-left: 50%;
+    }
+
+    .box-2{
+        position: absolute;
+        width: 250px;
+        bottom: 0;
+        bottom: -20%;
+        margin-left: 3%;
+    }
+
+    .box-2 h1{
+        padding-left: 9%;
+        margin-top: 2%;
+    }
+
+
+    .div-1 p{
+        margin-left: 0;
+        width: 300px;
+    }
+
+    .btn-1{
+        margin-left: 0;
+        margin-bottom: 6%;
+    }
+
+    .logo{
+        margin-left: 0;
+    }
+
+    .pic{
+        position: relative;
+        bottom: 0;
+        bottom: 2%;
+        margin-left: 3%;
+    }
+
     .team-img-conteiner{
         flex-direction: column;
         gap: 5%;
+    }
+
+    .main{
+        width: 547px;
+    }
+
+    .BMI{
+        width: 550px;
+        height: 1200px;
+    }
+
+    .input-1{
+        width: 230px;
+        height: 55px;    
+    }
+
+    .input-2{
+        width: 230px;
+    }
+
+    .input-3{
+        width: 220px;
+        height: 55px;   
+        margin-left: 2%; 
+    }
+
+
+    .h1-5{
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .p-6{
+        margin-left: 0;
+        width: 550px;
+    }
+
+    .h1-6{
+        margin-left: 0;
+        font-size: 50px;
+    }
+
+    .table{
+        margin-left: 2%;
+    }
+
+    .form{
+        height: 550px;
+        margin-top: 185%;
+        margin-left: 0;
     }
 
     .footer{
@@ -724,6 +829,32 @@ li a{
 
     .habit-4 p{
         width: 250px;
+        margin-bottom: 5%;
+    }
+
+    .Run{
+        margin-left: 2%;
+        width: 500px;
+        height: 800px;
+    }
+
+    .run{
+        width: 400px;
+        position: relative;
+        bottom: 0;
+        bottom: 1%;
+        margin-left: 10%;
+    }
+
+    .Run p{
+        width: 400px;
+    }
+
+    .Run h1{
+        font-size: 40px;
+    }
+
+    .Run button{
         margin-bottom: 5%;
     }
 }
