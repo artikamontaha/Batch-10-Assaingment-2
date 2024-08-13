@@ -121,7 +121,7 @@ li a{
     border-radius: 45px;
     font-size: 20px;
     color: white;
-    margin-left: 10px;
+    margin-left: 1%;
     background-color: transparent;
 }
 
@@ -628,7 +628,7 @@ li a{
 .logo-design{
     width: 500px;
     height: 500px;
-    margin-left: 6%;
+    margin-left: 8%;
     margin-top: 5%;
 }
 
@@ -641,13 +641,14 @@ li a{
     color: rgba(255, 255, 255, 0.25);
     font-size: 25px;
     margin-top: 5%;
+    width: 600px;
 }
 
 .service{
     width: 500px;
     height: 500px;
     margin-top: 7%;
-    margin-left: 40%;
+    margin-left: 20%;
 }
 
 .li{
@@ -742,7 +743,7 @@ li a{
     }
 
     .main{
-        width: 1047px;
+        width: 550px;
         height: 6500px;
     }
 
@@ -758,7 +759,7 @@ li a{
     }
 
     .input-2{
-        width: 230px;
+        width: 200px;
     }
 
     .input-3{
@@ -770,6 +771,10 @@ li a{
     .select-1{
         margin-left: 2%;
         width: 630px;
+    }
+
+    .select{
+        width: 100px;
     }
 
     .btn-4{
@@ -827,13 +832,6 @@ li a{
 
 
 
-    .btn-2{
-        position: relative;
-        bottom: 0;
-        bottom: -10%;
-        margin-left: 0;
-        margin-bottom: 5%;
-    }
 
 
 
@@ -889,9 +887,11 @@ li a{
 
 
     .footer{
+        width: 550px;
         flex-direction: column;
-        height: 1000px;
+        height: 1200px;
         gap: -14rem
+        
     }
 
 
@@ -902,21 +902,32 @@ li a{
         margin-left: 6%;
         position: relative;
         bottom: 0;
-        bottom: 10%;
+        bottom: 6%;
     }
 
 
 
-
+    .p-9{
+        width: 400px;
+        margin-left: 2%;
+    }
 
 
 
     .Get-Started{
+        margin-left: 15%;
+        margin-top: 8%;
+    }
+
+    .fitness{
         margin-left: 6%;
         position: relative;
         bottom: 0;
-        bottom: 75%;
-        margin: 5;
+        bottom: 10%;
+    }
+
+    .logo-design{
+        margin-left: 6%;
     }
 
 
