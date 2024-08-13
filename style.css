@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background: radial-gradient( rgba(119, 119, 119, 0),rgb(17, 17, 17)); 
+    background:  #313131; 
     width: 1900px;
     height: 953px; 
  
@@ -57,20 +57,6 @@ li a{
     text-decoration: none;
 }
 
-.link-1{    
-    width: 80px;
-    height: 30px;
-    background-color: orangered;
-    border-radius: 40px;
-}
-
-.all-link{
-    width: 92px;
-    height: 38px;
-    background-color:  rgb(230, 83, 60);
-    border: 2px solid rgb(230, 83, 60);
-    border-radius: 30px;
-}
 
 
 .div-1{
@@ -193,7 +179,7 @@ li a{
     border: 5px solid black;
     background-color: black;
     width: 1890px;
-    height: 3390px;
+    height: 4000px;
     margin: 0;
     margin-left: 0;
     gap: none;
@@ -280,6 +266,10 @@ li a{
 }
 .span-2{
     margin-left: 18px;
+}
+
+.menu{
+    display: none;
 }
 
 .img-4{
@@ -414,7 +404,7 @@ li a{
     height: 550px;
     margin-top: 5%;
     background-color: rgba(128, 128, 128, 0.317);
-    width: 1900px;
+    width: 1899px;
 }
 
 .h1-6{
@@ -549,7 +539,6 @@ li a{
     background-color: rgba(128, 128, 128, 0.151);
     gap: 30px;
     border-radius: 15px;
-    margin-bottom: 15%;
 }
 
 .img-6{
@@ -616,12 +605,49 @@ li a{
 
 }
 
+.exarcise-sektion{
+    width: 1400px;
+    height: 600px;
+    margin-top: 2%;
+    margin-left: 15%;
+    display: grid;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+}
+
+.exarcise-sektion h1{
+    color: white;
+    font-size: 50px;
+    margin-left: 40%;
+}
+
+.exarcise-sektion p{
+    color: white;
+    margin-right: 5%;
+    margin-top: 2px;
+    width: 1000px;
+    margin-left: 20%;
+}
+
+.exarcise-food{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.exarcise-food img{
+    height: 300px;
+    width: 440px;
+    gap: 3px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
 .footer{
     border: 1px solid rgba(25, 23, 23, 0.474);
-    width: 1900px;
+    width: 1898px;
     height: 640px;
-    /* background-color: rgba(0, 0, 0, 0.687); */
-    background-color: #1A1A1A;
+    background-color: rgba(0, 0, 0, 0.687); 
     display: flex;
 }
 
@@ -651,6 +677,10 @@ li a{
     margin-left: 20%;
 }
 
+.service h1{
+    color: white;
+}
+
 .li{
     display: grid;
     margin-top: 5%;
@@ -667,6 +697,10 @@ li a{
     height: 500px;
     margin-top: 7%;
     margin-left: 5%;
+}
+
+.fitness h1{
+    color: white;
 }
 
 .p-1{
@@ -689,10 +723,28 @@ li a{
     }
 
 
+    .all-link{
+        display: none;
+    }
+
+
+
+    .menu{
+        display: block;
+        color: white;
+    }
+
+
+
+
     .div-1 h1{
         margin-left: 0;
         font-size: 50px;
     }
+
+
+
+
 
     .box-1{
         position: absolute;
@@ -701,6 +753,18 @@ li a{
         bottom: -2%;
         margin-left: 50%;
     }
+
+
+
+
+    .number{
+        width: 100px;
+        height: 30px;
+        margin-left: 4%;
+        border: 3px solid white;
+    }
+
+
 
     .box-2{
         position: absolute;
