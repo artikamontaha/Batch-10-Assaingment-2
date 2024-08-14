@@ -300,7 +300,8 @@ li a{
 
 .habits-write-4{
     left: 63%;
-   color: white; 
+    color: white; 
+    font-size: 30px;
 }
 
 .habit-p-4{
@@ -807,7 +808,7 @@ li a{
     }
 
     .main{
-        width: 513px;
+        width: 516px;
         height: 7480px;
     }
 
@@ -863,7 +864,7 @@ li a{
     .photo-line{
         display: grid;
         margin-left: 2%;
-        width: 510px;
+        width: 515px;
         height: 2650px;
     }
 
