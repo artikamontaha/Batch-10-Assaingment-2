@@ -10,7 +10,7 @@ body{
 }
 
 header{
-    background:  #313131; 
+    background:  #3131317c; 
     width: 1900px;
     height: 953px; 
  
@@ -179,7 +179,7 @@ li a{
     border: 5px solid black;
     background-color: black;
     width: 1890px;
-    height: 4000px;
+    height: 3900px;
     margin: 0;
     margin-left: 0;
     gap: none;
@@ -607,8 +607,8 @@ li a{
 
 .exarcise-sektion{
     width: 1400px;
-    height: 600px;
-    margin-top: 2%;
+    height: 450px;
+    margin-top: 4%;
     margin-left: 15%;
     display: grid;
     background-color: rgba(128, 128, 128, 0.5);
@@ -719,7 +719,7 @@ li a{
 
     header{
         height: 1200px;
-        width: 557px;
+        width: 523px;
     }
 
 
@@ -757,12 +757,12 @@ li a{
 
 
 
-    .number{
+    /* .number{
         width: 100px;
         height: 30px;
         margin-left: 4%;
         border: 3px solid white;
-    }
+    } */
 
 
 
@@ -807,38 +807,38 @@ li a{
     }
 
     .main{
-        width: 550px;
-        height: 6500px;
+        width: 513px;
+        height: 7480px;
     }
 
     .BMI{
-        width: 550px;
+        width: 513px;
         height: 1100px;
     }
-
     .input-1{
-        width: 230px;
+        width: 200px;
         height: 55px;    
         margin-left: 2%;
     }
 
     .input-2{
         width: 200px;
+        margin-left: 1%;
     }
-
-    .input-3{
+    .input-3{  
         height: 55px;   
-        margin-left: 2%; 
-        width: 300px;
+        margin-left: 2%;         
+        width: 200px;
     }
 
     .select-1{
         margin-left: 2%;
-        width: 630px;
+        width: 470px;
     }
-
     .select{
-        width: 100px;
+        width: 230px;
+        margin-left: 1%;
+
     }
 
     .btn-4{
@@ -927,7 +927,7 @@ li a{
 
     .p-6{
         margin-left: 5%;
-        width: 550px;
+        width: 500px;
     }
 
     .h1-6{
@@ -946,12 +946,39 @@ li a{
     }
 
 
+    .exarcise-sektion{
+        width: 500px;
+        margin-left: 2%;
+        height: 1150px;
+        margin-top: 6%;
+    }
 
+    .exarcise-sektion h1{
+        margin-left: 0;
+        margin-top: 3%;
+        margin-left: 2%;
+    }
+
+    .exarcise-sektion p{
+        margin-left: 0;
+        margin-top: 3%;
+        margin-left: 2%;
+        width: 500px;
+        margin-top: -52%;
+    }
+
+    .exarcise-food{
+        display: grid;
+        position: relative;
+        bottom: 0;
+        bottom: 76%;
+        gap: 5%;
+    }
 
 
 
     .footer{
-        width: 550px;
+        width: 521px;
         flex-direction: column;
         height: 1200px;
         gap: -14rem
